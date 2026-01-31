@@ -1,0 +1,99 @@
+.
+├── .classpath
+├── .eclipse
+│   └── formatter
+│       └── eclipse-java-formatter.xml
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
+├── .prettierrc.json
+├── .project
+├── .settings
+│   ├── org.eclipse.core.resources.prefs
+│   ├── org.eclipse.jdt.core.prefs
+│   ├── org.eclipse.jdt.ui.prefs
+│   └── org.eclipse.m2e.core.prefs
+├── docs
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── login
+│   │   │           ├── components
+│   │   │           │   ├── authority
+│   │   │           │   │   ├── api
+│   │   │           │   │   │   ├── domain
+│   │   │           │   │   │   │   └── MyAuthorityEnum.java
+│   │   │           │   │   │   ├── dto
+│   │   │           │   │   │   │   ├── MyAuthorityInputDto.java
+│   │   │           │   │   │   │   └── MyAuthorityViewDto.java
+│   │   │           │   │   │   ├── exception
+│   │   │           │   │   │   │   └── MyAuthorityException.java
+│   │   │           │   │   │   ├── param
+│   │   │           │   │   │   │   └── MyAuthorityObjParam.java
+│   │   │           │   │   │   └── service
+│   │   │           │   │   │       └── MyAuthorityService.java
+│   │   │           │   │   └── internal
+│   │   │           │   │       ├── MyAuthorityDB.java
+│   │   │           │   │       ├── MyAuthorityEntity.java
+│   │   │           │   │       ├── MyAuthorityErrorCode.java
+│   │   │           │   │       ├── MyAuthorityIdBridge.java
+│   │   │           │   │       ├── MyAuthorityIdConstants.java
+│   │   │           │   │       ├── MyAuthorityRepository.java
+│   │   │           │   │       ├── MyAuthorityServiceImpl.java
+│   │   │           │   │       ├── ToMyAuthorityEnumMapper.java
+│   │   │           │   │       └── ToMyAuthorityViewDtoMapper.java
+│   │   │           │   └── user
+│   │   │           │       ├── api
+│   │   │           │       │   ├── dto
+│   │   │           │       │   │   ├── MyLoginInputDto.java
+│   │   │           │       │   │   ├── MyPasswordSetInputDto.java
+│   │   │           │       │   │   ├── MyPasswordSetViewDto.java
+│   │   │           │       │   │   ├── MyUsersInputDto.java
+│   │   │           │       │   │   └── MyUsersViewDto.java
+│   │   │           │       │   ├── exception
+│   │   │           │       │   │   ├── MyPasswordSetException.java
+│   │   │           │       │   │   └── MyUsersException.java
+│   │   │           │       │   ├── param
+│   │   │           │       │   │   ├── MyPasswordSetObjParam.java
+│   │   │           │       │   │   └── MyUsersObjParam.java
+│   │   │           │       │   └── service
+│   │   │           │       │       ├── MyPasswordSetService.java
+│   │   │           │       │       └── MyUsersService.java
+│   │   │           │       └── internal
+│   │   │           │           ├── MyUserDetails.java
+│   │   │           │           ├── MyUserDetailsServiceImpl.java
+│   │   │           │           ├── MyUsersServiceImpl.java
+│   │   │           │           ├── PasswordSetErrorCode.java
+│   │   │           │           ├── PasswordSetServiceImpl.java
+│   │   │           │           ├── ToMyPasswordSetViewDtoMapper.java
+│   │   │           │           ├── ToMyUsersViewDtoMapper.java
+│   │   │           │           ├── UsersDB.java
+│   │   │           │           ├── UsersEntity.java
+│   │   │           │           ├── UsersErrorCode.java
+│   │   │           │           ├── UsersIdBridge.java
+│   │   │           │           ├── UsersIdConstants.java
+│   │   │           │           └── UsersRepository.java
+│   │   │           ├── SpringLoginModuleApplication.java
+│   │   │           └── util
+│   │   │               └── param
+│   │   │                   └── MyPropKey.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── my_login
+│   │           └── config
+│   │               └── error.properties
+│   └── test
+│       ├── java
+│       └── resources
+└── tree_login.txt
+
+36 directories, 60 files
+tree -a -I 'target|.git|node_modules|build|dist|.idea|.vscode|.gradle|out|coverage' -L 10 > tree_login.txt
