@@ -12,7 +12,7 @@ import com.login.components.user.api.exception.MyPasswordSetException;
 import com.login.components.user.api.service.MyPasswordSetService;
 import com.login.components.user.api.service.MyUsersService;
 import com.login.components.user.internal.MyPasswordSetErrorCode.MyPasswordDbgMsg;
-import com.util.type.MyType;
+import com.my.util.type.MyType;
 
 import lombok.AllArgsConstructor;
 

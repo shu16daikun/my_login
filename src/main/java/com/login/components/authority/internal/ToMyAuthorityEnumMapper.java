@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import com.login.components.authority.api.domain.MyAuthorityEnum;
 import com.login.components.authority.api.exception.MyAuthorityException;
 import com.login.components.authority.internal.MyAuthorityErrorCode.MyAuthorityDbgMsg;
-import com.util.type.MyType;
+import com.my.util.type.MyType;
 
 /** AuthorityEntity／名称 と {@link MyAuthorityEnum} の相互変換。 */
 @Component

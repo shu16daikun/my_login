@@ -21,10 +21,10 @@ import com.login.components.authority.internal.MyAuthorityDB.AuthorityIdParam;
 import com.login.components.authority.internal.MyAuthorityErrorCode.MyAuthorityDbgMsg;
 import com.login.components.user.api.dto.MyUsersViewDto;
 import com.login.components.user.api.service.MyUsersRefLookUp;
-import com.util.security.id.DbIdSequence;
-import com.util.security.id.SystemIdUtil;
-import com.util.security.role.RoleUtil;
-import com.util.type.MyType;
+import com.my.util.security.id.DbIdSequence;
+import com.my.util.security.id.SystemIdUtil;
+import com.my.util.security.role.RoleUtil;
+import com.my.util.type.MyType;
 
 import lombok.AllArgsConstructor;
 

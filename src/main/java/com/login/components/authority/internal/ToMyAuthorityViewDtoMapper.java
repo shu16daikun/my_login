@@ -3,7 +3,7 @@ package com.login.components.authority.internal;
 import org.springframework.stereotype.Component;
 
 import com.login.components.authority.api.dto.MyAuthorityViewDto;
-import com.util.security.role.RoleUtil;
+import com.my.util.security.role.RoleUtil;
 
 /**
  * AuthorityEntity → MyAuthorityViewDto 変換。

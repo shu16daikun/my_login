@@ -1,8 +1,8 @@
 // com.login.components.user.internal.MyUsersErrorCode
 package com.login.components.user.internal;
 
-import com.exception.error_code.ErrorCode;
-import com.exception.error_code.HttpStatusCode;
+import com.my.exception.error_code.ErrorCode;
+import com.my.exception.error_code.HttpStatusCode;
 
 /**
  * Users ユースケースのエラーコード（SLM.* 体系）。

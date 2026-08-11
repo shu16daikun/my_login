@@ -1,8 +1,8 @@
 // com.login.components.authority.internal.MyAuthorityErrorCode
 package com.login.components.authority.internal;
 
-import com.exception.error_code.ErrorCode;
-import com.exception.error_code.HttpStatusCode;
+import com.my.exception.error_code.ErrorCode;
+import com.my.exception.error_code.HttpStatusCode;
 
 /**
  * 権限ユースケースのエラーコード（SLM.* 体系）。

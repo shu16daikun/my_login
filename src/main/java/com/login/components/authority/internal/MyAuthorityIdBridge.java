@@ -2,8 +2,8 @@
 package com.login.components.authority.internal;
 
 import com.login.components.authority.api.exception.MyAuthorityException;
-import com.util.security.id.IdBridge;
-import com.util.type.MyType;
+import com.my.util.security.id.IdBridge;
+import com.my.util.type.MyType;
 
 /**
  * authority の viewId ⇄ entityId 変換。

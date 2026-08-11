@@ -22,8 +22,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- 自作モジュール -->
-    <my_util.version>0.1.0</my_util.version>
-    <my_exception.version>0.0.3</my_exception.version>
+    <my_util.version>0.1.1</my_util.version>
+    <my_exception.version>0.0.4</my_exception.version>
     <my_loger.version>0.0.1</my_loger.version>
 
     <!-- Spotless -->
@@ -36,12 +36,12 @@
   <dependencies>
     <!-- 自モジュール依存 -->
     <dependency>
-      <groupId>com.util</groupId>
+      <groupId>com.my.util</groupId>
       <artifactId>my_util</artifactId>
       <version>${my_util.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.exception</groupId>
+      <groupId>com.my.exception</groupId>
       <artifactId>my_exception</artifactId>
       <version>${my_exception.version}</version>
     </dependency>

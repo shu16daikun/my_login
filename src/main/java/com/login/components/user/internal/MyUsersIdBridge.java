@@ -3,8 +3,8 @@ package com.login.components.user.internal;
 
 import com.login.components.user.api.exception.MyUsersException;
 import com.login.components.user.internal.MyUsersErrorCode.MyUsersDbgMsg;
-import com.util.security.id.IdBridge;
-import com.util.type.MyType;
+import com.my.util.security.id.IdBridge;
+import com.my.util.type.MyType;
 
 /** users の viewId ⇄ entityId 変換。 */
 /**
